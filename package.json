@@ -1,0 +1,48 @@
+{
+  "name": "eCommerce-Nodejs-MongoDB",
+  "version": "1.1.0",
+  "description": "eCommerce Application | Back End: Node.js, Express, MongoDB, RESTful API | Front End: EJS, Bootstrap",
+  "main": "server.js",
+  "scripts": {
+    "start": "npx nodemon",
+    "test": "echo \"WARN: No test scripts are specified in this version\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/applicationsdev/eCommerce-Nodejs-MongoDB.git"
+  },
+  "keywords": [
+    "ecommerce",
+    "nodejs",
+    "express",
+    "mongodb",
+    "rest-api",
+    "ejs",
+    "bootstrap",
+    "javascript"
+  ],
+  "author": "Applications Developer <https://github.com/applicationsdev>",
+  "license": "MIT",
+  "homepage": "https://github.com/applicationsdev/eCommerce-Nodejs-MongoDB#readme",
+  "bugs": {
+    "url": "https://github.com/applicationsdev/eCommerce-Nodejs-MongoDB/issues"
+  },
+  "devDependencies": {
+    "morgan": "^1.9.0",
+    "nodemon": "^1.14.10"
+  },
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.18.2",
+    "connect-mongo": "^2.0.1",
+    "cookie-parser": "^1.4.3",
+    "ejs": "^2.5.7",
+    "ejs-mate": "^2.3.0",
+    "express": "^4.16.2",
+    "express-flash": "0.0.2",
+    "express-session": "^1.15.6",
+    "mongoose": "^4.13.9",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0"
+  }
+}
